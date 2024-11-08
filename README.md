@@ -16,13 +16,12 @@ Win32 应用程序隔离建立在 [AppContainers](https://learn.microsoft.com/en
 
 *支持的 Windows 版本和工具的发布说明可在 [此处](relnotes/windows-release-notes.md) 找到。
 
-## Resources
+## 资源
 您可以使用以下资源查找有关 Win32 应用程序隔离的更多信息： 
 * [Win32 app isolation Build session](https://www.youtube.com/watch?v=w6VwHGPz12w&pp=ygUTd2luMzIgYXBwIGlzb2xhdGlvbg%3D%3D&ab_channel=MicrosoftDeveloper)
 * [Win32 app isolation blog](https://blogs.windows.com/windowsdeveloper/2023/06/14/public-preview-improve-win32-app-security-via-app-isolation/)
 
-## Trademarks
-
+## 声明
 本项目可能包含项目、产品或服务的商标或徽标。授权使用 Microsoft 
 商标或徽标的授权使用必须遵循 
 [微软商标和品牌指南](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general)。
