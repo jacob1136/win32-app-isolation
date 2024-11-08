@@ -15,28 +15,16 @@ Win32 应用程序隔离建立在 [AppContainers](https://learn.microsoft.com/en
 *用于打包应用程序以隔离运行的工具的二进制文件在 repo 的 [releases](https://github.com/microsoft/win32-app-isolation/releases) 部分共享。
 
 *支持的 Windows 版本和工具的发布说明可在 [此处](relnotes/windows-release-notes.md) 找到。
-## Communicating with the team
-We'd love to hear your feedback and answer your questions! 
-The best way to communicate with the team is through GitHub [discussions](https://github.com/microsoft/win32-app-isolation/discussions)
-and [issues](https://github.com/microsoft/win32-app-isolation/issues). 
-Please search for similar discussions and issues before creating new ones. 
 
 ## Resources
-You can find additional information about Win32 app isolation using the following resources: 
+您可以使用以下资源查找有关 Win32 应用程序隔离的更多信息： 
 * [Win32 app isolation Build session](https://www.youtube.com/watch?v=w6VwHGPz12w&pp=ygUTd2luMzIgYXBwIGlzb2xhdGlvbg%3D%3D&ab_channel=MicrosoftDeveloper)
 * [Win32 app isolation blog](https://blogs.windows.com/windowsdeveloper/2023/06/14/public-preview-improve-win32-app-security-via-app-isolation/)
 
-## Contributing
-If you would like to contribute to the documentation, please familiarize yourself with the Code of Conduct resources below and submit a pull request.
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
-
 ## Trademarks
 
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
-trademarks or logos is subject to and must follow 
-[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
-Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
-Any use of third-party trademarks or logos are subject to those third-party's policies.
+本项目可能包含项目、产品或服务的商标或徽标。授权使用 Microsoft 
+商标或徽标的授权使用必须遵循 
+[微软商标和品牌指南](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general)。
+在本项目的修改版本中使用 Microsoft 商标或徽标不得造成混淆或暗示 Microsoft 赞助。
+对第三方商标或徽标的任何使用均须遵守第三方的政策。
