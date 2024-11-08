@@ -1,24 +1,20 @@
 # Welcome to the Win32 app isolation repo
-Win32 app isolation is a new security feature on Windows that helps contain the damage and safeguard user privacy choices in the event of an 
-application compromise. 
-Win32 app isolation is built on the foundation of [AppContainers](https://learn.microsoft.com/en-us/windows/win32/secauthz/implementing-an-appcontainer), which offer a security boundary, 
-and components that virtualize resources and provide brokered access to other resources. 
-This repo contains the documentation and tools to help you isolate your applications.
+Win32 应用程序隔离是 Windows 上的一项新安全功能，有助于在应用程序受到攻击时控制损害并保护用户的隐私选择。
+Win32 应用程序隔离建立在 [AppContainers](https://learn.microsoft.com/en-us/windows/win32/secauthz/implementing-an-appcontainer) 的基础上，它提供安全边界以及虚拟化资源并提供对其他资源的中介访问。
+此存储库包含帮助您隔离应用程序的文档和工具。
 
-## Getting started 
-* The first step to isolating your application is to package it to run isolated by following the instructions
-
-	* [using the MSIX packaing tool](docs/packaging/msix-packaging-tool.md)
-	* or [using Visual Studio](docs/packaging/packaging-with-visual-studio.md)
+## 开始 
+* 隔离应用程序的第一步是将其打包以便隔离运行，具体步骤如下
+	* [使用 MSIX packaing tool](docs/packaging/msix-packaging-tool.md)
+	* 或 [使用 Visual Studio](docs/packaging/packaging-with-visual-studio.md)
 	
-* Once you have your application packaged, use [Application Capability Profiler](docs/profiler/application-capability-profiler.md) to update the application to grant it access to additional resources.
-* We also have additional documentation about the [fundamentals](docs/fundamentals) including file access consent.
-* You're now ready to deploy and run your application on Windows.
+* 打包应用程序后，使用 [Application Capability Profiler](docs/profiler/application-capability-profiler.md)更新应用程序，允许它访问更多资源。
+* 我们还有更多关于 [fundamentals](docs/fundamentals) 的文档，包括文件访问同意。
+* 现在，您已准备好在 Windows 上部署和运行应用程序。
 
-Binaries for the tools used to package applications to run isolated are shared under the [releases](https://github.com/microsoft/win32-app-isolation/releases) section of the repo.
+*用于打包应用程序以隔离运行的工具的二进制文件在 repo 的 [releases](https://github.com/microsoft/win32-app-isolation/releases) 部分共享。
 
-Release notes for supported Windows builds and tools can be found [here](relnotes/windows-release-notes.md).
-
+*支持的 Windows 版本和工具的发布说明可在 [此处](relnotes/windows-release-notes.md) 找到。
 ## Communicating with the team
 We'd love to hear your feedback and answer your questions! 
 The best way to communicate with the team is through GitHub [discussions](https://github.com/microsoft/win32-app-isolation/discussions)
